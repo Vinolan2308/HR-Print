@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>HR Print & Custom Uniform | Malaysia</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; }
+    header { background:#003366; color:white; padding:30px 20px; text-align:center; }
+    nav { display:flex; justify-content:center; gap:20px; margin:15px; }
+    nav a { color:#003366; text-decoration:none; font-weight:bold; }
+    .hero { background:#e6e6e6; padding:60px 20px; text-align:center;}
+    section { padding:40px 20px; }
+    .service-card { background:#f9f9f9; margin:10px; padding:20px; border-radius:8px; flex:1; }
+    .services { display:flex; flex-wrap:wrap; gap:20px; justify-content:center; }
+    .gallery { display:flex; flex-wrap:wrap; gap:10px; justify-content:center;}
+    .gallery img { width:200px; height:150px; object-fit:cover; border-radius:6px; }
+    footer { background:#003366; color:white; text-align:center; padding:20px;}
+    .contact-form { max-width:500px; margin:auto; display:flex; flex-direction:column; gap:15px; }
+    input, textarea { padding:10px; width:100%; border:1px solid #ccc; border-radius:4px; }
+    button { background:#003366; color:white; padding:12px; border:none; border-radius:4px; cursor:pointer; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>HR Print & Custom Uniform Company</h1>
+    <p>High-Quality Printing & Custom Uniform Solutions in Malaysia</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Welcome to HR Print & Custom Uniform</h2>
+    <p>Your partner for premium branding, uniforms & more.</p>
+  </div>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>HR Print & Custom Uniform Company is based in Malaysia, offering expert printing services and tailored uniform solutions for businesses, schools, events, and organizations. We focus on quality, reliability, and customer satisfaction.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>Custom Uniform Design</h3>
+        <p>Design and manufacture uniforms for schools, corporate, sports, hospitality & events.</p>
+      </div>
+      <div class="service-card">
+        <h3>Screen Printing</h3>
+        <p>Quality screen printing for T-shirts, workwear, industrial uniforms & more.</p>
+      </div>
+      <div class="service-card">
+        <h3>Embroidery Services</h3>
+        <p>Professional embroidery for logos, branding and personalization.</p>
+      </div>
+      <div class="service-card">
+        <h3>Merch & Branding</h3>
+        <p>Branded merchandise printing (bags, caps, banners, labels, stickers).</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio / Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/200x150?text=Uniform+1" alt="Uniform Sample">
+      <img src="https://via.placeholder.com/200x150?text=Printing+2" alt="Printing Sample">
+      <img src="https://via.placeholder.com/200x150?text=Embroidery+3" alt="Embroidery Sample">
+      <img src="https://via.placeholder.com/200x150?text=Merch+4" alt="Merch Sample">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="text" placeholder="Phone / WhatsApp" required>
+      <textarea placeholder="Message / Inquiry" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 HR Print & Custom Uniform Company | Malaysia</p>
+  </footer>
+
+</body>
+</html>
